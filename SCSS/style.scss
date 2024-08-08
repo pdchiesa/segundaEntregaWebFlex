@@ -90,9 +90,14 @@ h1 {
 
   img {
     object-fit: cover;
+    // include de MIXIN
     @include ancho-alto(100%, 100%);
 
     border-radius: 10px;
+    // animacion
+    &:hover {
+      transform: translate(-20px, -40px) rotate(-5deg);
+    }
   }
 }
 

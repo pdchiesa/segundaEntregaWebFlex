@@ -87,6 +87,9 @@ h1 {
   height: 100%;
   border-radius: 10px;
 }
+.galeria img:hover {
+  transform: translate(-20px, -40px) rotate(-5deg);
+}
 
 .item-a {
   grid-row: 1/3;
